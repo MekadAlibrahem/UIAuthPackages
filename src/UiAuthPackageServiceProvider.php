@@ -2,6 +2,7 @@
 namespace MekadAlibrahem\Uiauthpackage; 
 
 use Illuminate\Support\ServiceProvider ;
+use MekadAlibrahem\Uiauthpackage\Console\InstallUiAuth;
 
 class UiAuthpackageServiceProvider extends ServiceProvider
 {
@@ -12,6 +13,13 @@ class UiAuthpackageServiceProvider extends ServiceProvider
 
     public function boot()
     {
+         // Register the command if we are using the application via the CLI
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                InstallUiAuth::class,
+            ]);
+        }
+
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'uiauthpackage');
         $this->publishes([
