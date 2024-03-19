@@ -1,0 +1,25 @@
+{
+    "name": "mekad-alibrahem/uiauthpackage",
+    "description": "packeage to build front end and back end code  in laravel projects",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MekadAlibrahem\\Uiauthpackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MekadAlIibrahem",
+            "email": "mekadalibrahem123@gmail.com"
+        }
+    ],
+    "scripts": { 
+        "test": "vendor/bin/phpunit"
+     },
+
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.5"
+    }
+}
