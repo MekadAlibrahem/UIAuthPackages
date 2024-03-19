@@ -1,9 +1,9 @@
 <?php 
 
-namespace MekadAlibrahem\Uiauthpackage\Tests\Feature ;
+namespace Mekadalibrahem\Uiauthpackage\Tests\Feature ;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use MekadAlibrahem\Uiauthpackage\Tests\TestCase;
+use Mekadalibrahem\Uiauthpackage\Tests\TestCase;
 
 class LoginTest extends TestCase 
 {

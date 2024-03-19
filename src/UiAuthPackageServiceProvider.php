@@ -1,5 +1,5 @@
 <?php 
-namespace MekadAlibrahem\Uiauthpackage; 
+namespace Mekadalibrahem\Uiauthpackage; 
 
 use Illuminate\Support\ServiceProvider ;
 
