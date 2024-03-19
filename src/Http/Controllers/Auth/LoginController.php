@@ -4,6 +4,7 @@ namespace MekadAlibrahem\Uiauthpackage\Http\Controllers ;
 
 use Illuminate\Http\Request ;
 use Illuminate\Support\Facades\Auth;
+use MekadAlibrahem\Uiauthpackage\Http\Controllers\Controller;
 
 class LoginController extends Controller 
 {
