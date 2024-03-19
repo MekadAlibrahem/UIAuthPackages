@@ -15,16 +15,19 @@ class UiAuthpackageServiceProvider extends ServiceProvider
     {
          // Register the command if we are using the application via the CLI
         if ($this->app->runningInConsole()) {
+            $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+            $this->loadViewsFrom(__DIR__.'/../resources/views', 'uiauthpackage');
             $this->commands([
                 InstallUiAuth::class,
             ]);
+
+            $this->publishes([
+                __DIR__.'/../resources/views' => resource_path('views/vendor/uiauthpackage'),
+            ],'views');
         }
 
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'uiauthpackage');
-        $this->publishes([
-            __DIR__.'/../resources/views' => resource_path('views/vendor/uiauthpackage'),
-        ]);
+    
+      
 
         // $this->publishes([
         //     __DIR__.'/../routes/web.php' => resource_path('resource/vendor/uiauthpackage'),
