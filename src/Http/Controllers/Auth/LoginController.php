@@ -1,10 +1,10 @@
 <?php
 
-namespace Mekadalibrahem\Uiauthpackage\Http\Controllers ;
+namespace MekadAlibrahem\Uiauthpackage\Http\Controllers ;
 
 use Illuminate\Http\Request ;
 use Illuminate\Support\Facades\Auth;
-use Mekadalibrahem\Uiauthpackage\Http\Controllers\Controller;
+use MekadAlibrahem\Uiauthpackage\Http\Controllers\Controller;
 
 class LoginController extends Controller 
 {

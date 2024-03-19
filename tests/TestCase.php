@@ -1,7 +1,7 @@
 <?php 
-namespace Mekadalibrahem\Uiauthpackage\Tests ;
+namespace MekadAlibrahem\Uiauthpackage\Tests ;
 
-use Mekadalibrahem\Uiauthpackage\UiAuthpackageServiceProvider;
+use MekadAlibrahem\Uiauthpackage\UiAuthpackageServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase 
 {

@@ -12,13 +12,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MekadAlibrahem\\Uiauthpackage\\UiAuthPackagePackageServiceProvider"
+                "MekadAlibrahem\\Uiauthpackage\\UiAuthPackageServiceProvider"
             ]
         }
     },  
     "authors": [
         {
-            "name": "MekadAlIibrahem",
+            "name": "Mekad Alibrahem",
             "email": "mekadalibrahem123@gmail.com"
         }
     ],

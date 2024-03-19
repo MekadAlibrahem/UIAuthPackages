@@ -1,6 +1,6 @@
 <?php
 
-namespace Mekadalibrahem\Uiauthpackage\Http\Controllers;
+namespace MekadAlibrahem\Uiauthpackage\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
