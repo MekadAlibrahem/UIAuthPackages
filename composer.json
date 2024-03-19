@@ -9,6 +9,13 @@
             "MekadAlibrahem\\Uiauthpackage\\Tests\\" : "tests"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MekadAlibrahem\\Uiauthpackage\\UiAuthPackagePackageServiceProvider"
+            ]
+        }
+    },  
     "authors": [
         {
             "name": "MekadAlIibrahem",
